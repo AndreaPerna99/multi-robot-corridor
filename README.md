@@ -4,6 +4,11 @@
 Distributed multi-robot coordination using Aggregative Tracking, Potential Functions, and ROS 2-based optimization in real time.
 
 ---
+## 📌 Project Info
+- 🎓 Course: Distributed Autonomous Systems
+- 🏫 University of Bologna
+- 📅 Year: 2025
+---
 
 ## 🧠 About the Project
 
