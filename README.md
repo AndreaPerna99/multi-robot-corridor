@@ -21,16 +21,25 @@ The project is structured into three main tasks:
 
 ## 🗂 Project Structure
 
+
 ```
 📦 aggregative-multirobot/
-├── task2_1_ws/                        # ROS 2 workspace for Task 2.1
-├── task2_3_ws/                        # ROS 2 workspace for Task 2.3
-├── Images/, Videos/                  # Plots and 2D/3D animations
-├── Task2_1.py                         # Python simulation - surveillance
-├── Task2_3.py                         # Python simulation - corridor
-├── Projected_Aggregative_Tracking.py # Projected optimization implementation
-├── Project_Functions.py              # Shared utilities
-├── README.md
+├── 📁 task2_1_ws/                        # ROS 2 workspace for Task 2.1
+├── 📁 task2_3_ws/                        # ROS 2 workspace for Task 2.3
+├── 📁 Images/                            # Plots and 2D/3D animations
+│   ├── 📸 task2_1_python.png             # Surveillance – 2D Python
+│   ├── 📸 task2_1_3d.png                 # Surveillance – 3D Python
+│   ├── 📸 task2_1_rviz.png               # Surveillance – RVIZ
+│   ├── 📸 task2_3_python.png             # Corridor – 2D Python
+│   ├── 📸 task2_3_3d.png                 # Corridor – 3D Python
+│   └── 📸 task2_3_rviz.png               # Corridor – RVIZ
+├── 💻 Task2_1.py                         # Python simulation - surveillance
+├── 💻 Task2_3.py                         # Python simulation - corridor
+├── 💻 Projected_Aggregative_Tracking.py # Projected optimization implementation
+├── 💻 Project_Functions.py              # Shared utilities
+├── 📘 report_group_03.pdf               # Full project report (pages 19–33)
+├── 📄 Task2_Output.pdf                  # Notebook execution output
+└── 📄 README.md                         # You are here!
 ```
 
 ---
@@ -47,20 +56,27 @@ $ python3 Task2_1.py
 
 🔧 **Adjustable Parameters:**
 - `NN`, `MAXITERS`, `step-size`, `radius`, `b`, etc.
-- Local target motion options (enable with `moving_loc_targets=True`)
-- Aggregation weights: `gamma_r_lt`, `gamma_agg`, `gamma_bar`
+- Enable target motion with `moving_loc_targets=True`
+- Tune weights: `gamma_r_lt`, `gamma_agg`, `gamma_bar`
 
 📈 **Outputs:**
-- Cost plots, gradient evolution, tracking error
-- 2D animation of agent and target trajectories
+- Cost and tracking plots  
+- 2D and 3D animations  
+- Example outputs:
+
+<p float="left">
+  <img src="./Images/task2_1_python.png" width="240"/>
+  <img src="./Images/task2_1_3d.png" width="240"/>
+  <img src="./Images/task2_1_rviz.png" width="240"/>
+</p>
 
 ---
 
 ### 🔹 Task 2.2 – Real-Time ROS 2 Implementation
 
-Full distributed execution using ROS 2 nodes and launch files. Agents communicate in real time, with visualizations via RVIZ and a centralized animation tool.
+A distributed setup where each robot runs as a ROS 2 node, communicating through message-passing to collaboratively solve surveillance and navigation problems.
 
-#### ▶ Task 2.2.1 – Surveillance in ROS 2
+#### ▶ Task 2.2.1 – Surveillance
 
 ```bash
 $ cd task2_1_ws/
@@ -69,16 +85,14 @@ $ . install/setup.bash
 $ ros2 launch task2_ros task2_ros.launch.py
 ```
 
-Then visualize:
+Then visualize centralized results:
 
 ```bash
 $ cd src/task2_ros/centralized_animation/
 $ python3 centralized_animation.py
 ```
 
----
-
-#### ▶ Task 2.2.3 – Corridor Navigation in ROS 2
+#### ▶ Task 2.2.3 – Corridor Navigation
 
 ```bash
 $ cd task2_3_ws/
@@ -87,18 +101,25 @@ $ . install/setup.bash
 $ ros2 launch task2_3 task2_3.launch.py
 ```
 
-Then:
+Then visualize:
 
 ```bash
 $ cd src/task2_3/centralized_animation/
 $ python3 centralized_animation.py
 ```
 
+🖼️ Example ROS 2 visual outputs:
+
+<p float="left">
+  <img src="./Images/task2_3_rviz.png" width="240"/>
+  <img src="./Images/task2_1_rviz.png" width="240"/>
+</p>
+
 ---
 
 ### 🔹 Task 2.3 – Corridor Navigation (Python)
 
-Agents must cross a corridor while avoiding walls and reaching targets. Two methods are provided:
+Robots navigate through a corridor while avoiding walls and reaching targets.
 
 #### ➤ Option 1: Potential Functions
 
@@ -106,7 +127,7 @@ Agents must cross a corridor while avoiding walls and reaching targets. Two meth
 $ python3 Task2_3.py
 ```
 
-🧩 Parameters include corridor dimensions, wall avoidance (`avoid_walls=True`), gain tuning, and layout options (`random_init` or circular start).
+- Set corridor layout, wall avoidance (`avoid_walls=True`), layout style, and gain
 
 #### ➤ Option 2: Projected Aggregative Tracking
 
@@ -114,21 +135,26 @@ $ python3 Task2_3.py
 $ python3 Projected_Aggregative_Tracking.py
 ```
 
-👁‍🗨 Based on a 3-stage approach (to-corridor, through-corridor, to-targets) using projections to stay within feasible bounds.
+- Three-stage projected optimization: to-corridor → through-corridor → to-targets
+- Robust to infeasible solutions and wall collisions
 
 📈 **Outputs:**
-- Cost and gradient evolution
-- Tracking performance
-- 2D animation of agent paths (can be slowed down due to obstacle logic)
+- Cost, gradient, and animation plots  
+- Example outputs:
+
+<p float="left">
+  <img src="./Images/task2_3_python.png" width="240"/>
+  <img src="./Images/task2_3_3d.png" width="240"/>
+</p>
 
 ---
 
 ## 📊 Output & Evaluation
 
 - 📈 Cost and gradient convergence
-- 📌 Barycenter tracking error
-- 🎯 Trajectory and formation consistency
-- 🧠 Real-time vs centralized performance comparison
+- 📌 Barycenter and target tracking
+- 🎯 Formation cohesion & task performance
+- 🔁 Comparison of centralized (Python) and distributed (ROS 2) execution
 
 ---
 
