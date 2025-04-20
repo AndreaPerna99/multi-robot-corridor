@@ -1,0 +1,43 @@
+#agents_parameters
+NN: 4
+n_z: 2
+
+#algorithm_parameters
+step_size: 0.01
+MAXITERS: 100
+dt: 3
+
+#graph_parameters
+p_ER: 0.3
+
+#visualization's parameters (visu_frequency before 200)
+visu_frequency: 200
+timer_period: 0.5 #seconds
+
+#cost_function_gains
+gamma_r_lt: 3
+gamma_agg: 0
+gamma_bar: 0.5
+gamma_rep: 0
+
+#corridor_parameters
+corr_length: 19
+corr_width: 6
+corr_pos: [30, 5]
+corr_bound_offset: 6
+walls_margin: 1
+num_corr_points: 10
+avoid_walls: False
+
+#targets_parameters
+target_avg: [8, 8]
+initial_avg: [5, 5]
+radius: 3.0
+gain: 0.5
+b: [8, 8]
+targets_motion_type: 'diag' #choose either hor, vert or diag
+moving_local_targets: False #allow local targets' motion
+show_intermediate_targets: True #show intermediate targets
+targets_rate_change: 10 #number of iterations to skip
+targets_shift_x: 1
+targets_shift_y: 1

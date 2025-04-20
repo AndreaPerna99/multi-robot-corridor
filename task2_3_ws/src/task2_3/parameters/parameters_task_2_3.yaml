@@ -1,0 +1,42 @@
+#agents_parameters
+NN: 4
+n_z: 2
+
+#algorithm_parameters
+step_size: 0.01
+MAXITERS: 250
+dt: 3
+
+#graph_parameters
+p_ER: 0.3
+
+#visualization's parameters
+visu_frequency: 200
+timer_period: 0.5 #seconds
+
+#cost_function_gains
+gamma_r_lt: 0.8
+gamma_agg: 0
+gamma_bar: 0.5
+gamma_rep: 0
+
+#corridor_parameters
+corr_length: 19
+corr_width: 8
+corr_pos: [30, 5]
+corr_bound_offset: 5
+walls_margin: 0.7
+num_corr_points: 100
+show_corr_points: True
+avoid_walls: True
+
+#targets_parameters
+target_avg: [60, 15]
+initial_avg: [0, -5]
+radius: 7.0
+gain: 0.5
+b: [60, 15]
+
+#potential function parameters
+K: 1000 #gain
+qstar: 5 #safety distance
