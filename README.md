@@ -63,9 +63,9 @@ $ python3 Task2_1.py
 - Example outputs:
 
 <p align="center">
-  <img src="./images/task2_1_python.png" height="400"/>
-  <img src="./images/task2_1_3d.png" height="400"/>
-  <img src="./images/task2_1_rviz.png" height="400"/>
+  <img src="./images/task2_1_python.png" height="300"/>
+  <img src="./images/task2_1_3d.png" height="300"/>
+  <img src="./images/task2_1_rviz.png" height="300"/>
 </p>
 
 ---
