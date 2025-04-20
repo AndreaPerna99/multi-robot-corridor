@@ -63,9 +63,9 @@ $ python3 Task2_1.py
 - 2D and 3D animations  
 
 <p align="center">
-  <img src="./Images/task2_1_python.png" width="320"/>
-  <img src="./Images/task2_1_3d.png" width="320"/>
-  <img src="./Images/task2_1_rviz.png" width="320"/>
+  <img src="./images/task2_1_python.png" width="320"/>
+  <img src="./images/task2_1_3d.png" width="320"/>
+  <img src="./images/task2_1_rviz.png" width="320"/>
 </p>
 
 ---
@@ -109,8 +109,8 @@ $ python3 centralized_animation.py
 🖼️ **Example ROS 2 outputs:**
 
 <p align="center">
-  <img src="./Images/task2_3_rviz.png" width="320"/>
-  <img src="./Images/task2_1_rviz.png" width="320"/>
+  <img src="./images/task2_3_rviz.png" width="320"/>
+  <img src="./images/task2_1_rviz.png" width="320"/>
 </p>
 
 ---
@@ -140,8 +140,8 @@ $ python3 Projected_Aggregative_Tracking.py
 - Cost, gradient, and animation plots  
 
 <p align="center">
-  <img src="./Images/task2_3_python.png" width="320"/>
-  <img src="./Images/task2_3_3d.png" width="320"/>
+  <img src="./images/task2_3_python.png" width="320"/>
+  <img src="./images/task2_3_3d.png" width="320"/>
 </p>
 
 ---
