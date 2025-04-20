@@ -63,9 +63,9 @@ $ python3 Task2_1.py
 - Example outputs:
 
 <p align="center">
-  <img src="./images/task2_1_python.png" height="200"/>
-  <img src="./images/task2_1_3d.png" height="200"/>
-  <img src="./images/task2_1_rviz.png" height="200"/>
+  <img src="./images/task2_1_python.png" height="400"/>
+  <img src="./images/task2_1_3d.png" height="400"/>
+  <img src="./images/task2_1_rviz.png" height="400"/>
 </p>
 
 ---
@@ -109,8 +109,8 @@ $ python3 centralized_animation.py
 🖼️ Example ROS 2 visual outputs:
 
 <p align="center">
-  <img src="./images/task2_3_rviz.png" height="200"/>
-  <img src="./images/task2_1_rviz.png" height="200"/>
+  <img src="./images/task2_3_rviz.png" height="400"/>
+  <img src="./images/task2_1_rviz.png" height="400"/>
 </p>
 
 ---
@@ -141,8 +141,8 @@ $ python3 Projected_Aggregative_Tracking.py
 - Example outputs:
 
 <p align="center">
-  <img src="./images/task2_3_python.png" height="200"/>
-  <img src="./images/task2_3_3d.png" height="200"/>
+  <img src="./images/task2_3_python.png" height="400"/>
+  <img src="./images/task2_3_3d.png" height="400"/>
 </p>
 
 ---
