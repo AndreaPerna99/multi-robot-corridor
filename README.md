@@ -7,9 +7,7 @@ Distributed multi-robot coordination using Aggregative Tracking, Potential Funct
 
 ## 🧠 About the Project
 
-This project explores decentralized control and optimization strategies for **multi-robot systems** using **Aggregative Tracking**, **Potential Functions**, and a **ROS 2-based distributed implementation**.
-
-It represents the second part of the final project for the **Distributed Autonomous Systems** course at the MSc in Automation Engineering, University of Bologna.
+This project explores decentralized control and optimization strategies for **multi-robot systems** using **Aggregative Tracking**, **Potential Functions**, and a **ROS 2-based distributed implementation**. It represents the second part of the final project for the **Distributed Autonomous Systems** course at the MSc in Automation Engineering, University of Bologna.
 
 The project is structured into three main tasks:
 
