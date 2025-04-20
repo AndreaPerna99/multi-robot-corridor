@@ -38,7 +38,6 @@ The project is structured into three main tasks:
 ├── 💻 Projected_Aggregative_Tracking.py # Projected optimization implementation
 ├── 💻 Project_Functions.py              # Shared utilities
 ├── 📘 report_group_03.pdf               # Full project report (pages 19–33)
-├── 📄 Task2_Output.pdf                  # Notebook execution output
 └── 📄 README.md                         # You are here!
 ```
 
@@ -65,9 +64,9 @@ $ python3 Task2_1.py
 - Example outputs:
 
 <p float="left">
-  <img src="./Images/task2_1_python.png" width="240"/>
-  <img src="./Images/task2_1_3d.png" width="240"/>
-  <img src="./Images/task2_1_rviz.png" width="240"/>
+  <img src="./images/task2_1_python.png" width="240"/>
+  <img src="./images/task2_1_3d.png" width="240"/>
+  <img src="./images/task2_1_rviz.png" width="240"/>
 </p>
 
 ---
@@ -111,8 +110,8 @@ $ python3 centralized_animation.py
 🖼️ Example ROS 2 visual outputs:
 
 <p float="left">
-  <img src="./Images/task2_3_rviz.png" width="240"/>
-  <img src="./Images/task2_1_rviz.png" width="240"/>
+  <img src="./images/task2_3_rviz.png" width="240"/>
+  <img src="./images/task2_1_rviz.png" width="240"/>
 </p>
 
 ---
@@ -143,8 +142,8 @@ $ python3 Projected_Aggregative_Tracking.py
 - Example outputs:
 
 <p float="left">
-  <img src="./Images/task2_3_python.png" width="240"/>
-  <img src="./Images/task2_3_3d.png" width="240"/>
+  <img src="./images/task2_3_python.png" width="240"/>
+  <img src="./images/task2_3_3d.png" width="240"/>
 </p>
 
 ---
