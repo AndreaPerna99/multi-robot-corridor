@@ -1,11 +1,11 @@
-# 🧠 Aggregative Optimization for Multi-Robot Systems
+# Aggregative Optimization for Multi-Robot Systems
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 Distributed multi-robot coordination using Aggregative Tracking, Potential Functions, and ROS 2-based optimization in real time.
 
 ---
 
-## 📚 About the Project
+## 🧠 About the Project
 
 This project explores decentralized control and optimization strategies for **multi-robot systems** using **Aggregative Tracking**, **Potential Functions**, and a **ROS 2-based distributed implementation**.
 
