@@ -25,7 +25,7 @@ The project is structured into three main tasks:
 📦 aggregative-multirobot/
 ├── 📁 task2_1_ws/                        # ROS 2 workspace for Task 2.1
 ├── 📁 task2_3_ws/                        # ROS 2 workspace for Task 2.3
-├── 📁 Images/                            # Plots and 2D/3D animations
+├── 📁 images/                            # Plots and 2D/3D animations
 │   ├── 📸 task2_1_python.png             # Surveillance – 2D Python
 │   ├── 📸 task2_1_3d.png                 # Surveillance – 3D Python
 │   ├── 📸 task2_1_rviz.png               # Surveillance – RVIZ
@@ -37,7 +37,6 @@ The project is structured into three main tasks:
 ├── 💻 Projected_Aggregative_Tracking.py # Projected optimization implementation
 ├── 💻 Project_Functions.py              # Shared utilities
 ├── 📘 report_group_03.pdf               # Full project report (pages 19–33)
-├── 📄 Task2_Output.pdf                  # Notebook execution output
 └── 📄 README.md                         # You are here!
 ```
 
@@ -61,11 +60,12 @@ $ python3 Task2_1.py
 📈 **Outputs:**
 - Cost and tracking plots  
 - 2D and 3D animations  
+- Example outputs:
 
 <p align="center">
-  <img src="./images/task2_1_python.png" width="320"/>
-  <img src="./images/task2_1_3d.png" width="320"/>
-  <img src="./images/task2_1_rviz.png" width="320"/>
+  <img src="./images/task2_1_python.png" height="200"/>
+  <img src="./images/task2_1_3d.png" height="200"/>
+  <img src="./images/task2_1_rviz.png" height="200"/>
 </p>
 
 ---
@@ -106,11 +106,11 @@ $ cd src/task2_3/centralized_animation/
 $ python3 centralized_animation.py
 ```
 
-🖼️ **Example ROS 2 outputs:**
+🖼️ Example ROS 2 visual outputs:
 
 <p align="center">
-  <img src="./images/task2_3_rviz.png" width="320"/>
-  <img src="./images/task2_1_rviz.png" width="320"/>
+  <img src="./images/task2_3_rviz.png" height="200"/>
+  <img src="./images/task2_1_rviz.png" height="200"/>
 </p>
 
 ---
@@ -138,10 +138,11 @@ $ python3 Projected_Aggregative_Tracking.py
 
 📈 **Outputs:**
 - Cost, gradient, and animation plots  
+- Example outputs:
 
 <p align="center">
-  <img src="./images/task2_3_python.png" width="320"/>
-  <img src="./images/task2_3_3d.png" width="320"/>
+  <img src="./images/task2_3_python.png" height="200"/>
+  <img src="./images/task2_3_3d.png" height="200"/>
 </p>
 
 ---
@@ -184,4 +185,4 @@ Group 3 – MSc Automation Engineering, University of Bologna
 
 ## 📜 License
 
-All rights reserved. Educational use only.
+All rights reserved.
