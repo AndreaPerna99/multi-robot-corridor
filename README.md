@@ -21,21 +21,21 @@ The project is structured into three main tasks:
 
 ```
 📦 aggregative-multirobot/
-├── 📁 task2_1_ws/                        # ROS 2 workspace for Task 2.1
-├── 📁 task2_3_ws/                        # ROS 2 workspace for Task 2.3
-├── 📁 images/                            # Plots and 2D/3D animations
-│   ├── 📸 task2_1_python.png             # Surveillance – 2D Python
-│   ├── 📸 task2_1_3d.png                 # Surveillance – 3D Python
-│   ├── 📸 task2_1_rviz.png               # Surveillance – RVIZ
-│   ├── 📸 task2_3_python.png             # Corridor – 2D Python
-│   ├── 📸 task2_3_3d.png                 # Corridor – 3D Python
-│   └── 📸 task2_3_rviz.png               # Corridor – RVIZ
-├── 💻 Task2_1.py                         # Python simulation - surveillance
-├── 💻 Task2_3.py                         # Python simulation - corridor
-├── 💻 Projected_Aggregative_Tracking.py # Projected optimization implementation
-├── 💻 Project_Functions.py              # Shared utilities
-├── 📘 report_group_03.pdf               # Full project report (pages 19–33)
-└── 📄 README.md                         # You are here!
+├ 📁 task2_1_ws/                        # ROS 2 workspace for Task 2.1
+├ 📁 task2_3_ws/                        # ROS 2 workspace for Task 2.3
+├ 📁 images/                            # Plots and 2D/3D animations
+│ ├ 📸 task2_1_python.png               # Surveillance – 2D Python
+│ ├ 📸 task2_1_3d.png                   # Surveillance – 3D Python
+│ ├ 📸 task2_1_rviz.png                 # Surveillance – RVIZ
+│ ├ 📸 task2_3_python.png               # Corridor – 2D Python
+│ ├ 📸 task2_3_3d.png                   # Corridor – 3D Python
+│ └ 📸 task2_3_rviz.png                 # Corridor – RVIZ
+├ 💻 Task2_1.py                         # Python simulation - surveillance
+├ 💻 Task2_3.py                         # Python simulation - corridor
+├ 💻 Projected_Aggregative_Tracking.py  # Projected optimization implementation
+├ 💻 Project_Functions.py               # Shared utilities
+├ 📘 report_group_03.pdf                # Full project report (pages 19–33)
+└ 📄 README.md                          # You are here!
 ```
 
 ---
