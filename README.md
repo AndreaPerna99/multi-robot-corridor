@@ -176,7 +176,7 @@ Group 3 – MSc Automation Engineering, University of Bologna
 ## 📎 Resources
 
 - [📘 Full Report (PDF)](./report_group_03.pdf) *(see pages 19–33)*  
-- 🎞️ Animations and visualizations in `/Videos/`
+- 🎞️ Animations and visualizations in `/videos/`
 
 ---
 
