@@ -166,7 +166,7 @@ Group 3 – MSc Automation Engineering, University of Bologna
 - Gianluca Di Mauro  
 - Meisam Tavakoli  
 
-📧 andrea.perna3@studio.unibo.it
+📧 and.perna99@gmail.com
 
 ---
 
